@@ -1,3 +1,7 @@
+// I think this does more than read a file and the file reading is "the way to
+// get the data" (could be a db or anything else) and the rest is process
+// it into "expected format". I'd use a repository pattern or just rename this
+// function
 package helpers
 
 import (

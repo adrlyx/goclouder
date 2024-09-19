@@ -1,5 +1,7 @@
 package helpers
 
+// move to discovery/discovery.go (but renamed service/gcp.go?)
+
 import (
 	"context"
 	"fmt"
@@ -8,6 +10,7 @@ import (
 	"github.com/adrlyx/goclouder/discovery"
 )
 
+// This is a client towards gcp
 func CheckBillingAccount(ctx context.Context, projectID string, gcpService *discovery.GcpServices) bool {
 	projectID = "projects/" + projectID
 	req := &billingpb.GetProjectBillingInfoRequest{
