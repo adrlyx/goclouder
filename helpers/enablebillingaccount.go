@@ -1,3 +1,4 @@
+// same as checkBillingAccount. It should be part of the service
 package helpers
 
 import (

@@ -1,3 +1,5 @@
+// Repository pattern. you want this "data" and that "data" can be "read" or
+// "written".
 package helpers
 
 import (

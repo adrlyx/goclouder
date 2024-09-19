@@ -1,3 +1,4 @@
+// move to service/gcp.go same as checkBillingAccount
 package helpers
 
 import (

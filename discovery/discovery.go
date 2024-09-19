@@ -1,4 +1,16 @@
+// rename to service (this "service" concept I talk about is a
+// reference to "a service" in DDD, domain driven design)
 package discovery
+
+// GcpService
+// The purpose of this struct + methods would be to enable functionalty
+// where you interract with GCP.
+//
+// helpers.CheckBillingAccount should be part of this "class"
+//
+// InitGcpServices should be renamed to NewGcpService and "initialize"
+// the GcpService struct.
+//
 
 import (
 	"context"
