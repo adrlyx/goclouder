@@ -1,0 +1,116 @@
+files/input/*
+files/output/*
+
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+
+# Output of the 'go get' command
+bin/
+obj/
+
+# Build directories
+_build/
+
+# Temporary files
+*.tmp
+*.swp
+
+# Compiled object files
+*.o
+*.a
+*.lo
+*.la
+*.lai
+
+# Dependencies
+vendor/
+
+# Go workspace file
+go.work
+go.work.sum
+
+# Go mod cache
+go/pkg/mod/
+
+# Coverage results
+*.cover
+*.coverage
+*.testoutput
+
+# IDEs and editors
+# VS Code
+.vscode/
+.history/
+
+# GoLand
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-workspace
+*.sublime-project
+
+# JetBrains IDEs (IntelliJ IDEA, PyCharm, etc.)
+.idea/
+*.iml
+*.iws
+.idea/workspace.xml
+.idea/tasks.xml
+.idea/gradle.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/misc.xml
+.idea/dictionaries
+.idea/assetWizardSettings.xml
+.idea/jsLibraryMappings.xml
+
+# Vim
+*.swp
+*.swo
+*.swm
+
+# Emacs
+*~
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Temporary files created by operating systems
+._*
+
+# Log files
+*.log
+
+# dotenv environment variable files
+.env
+
+# Archives
+*.tar
+*.zip
+*.tar.gz
+*.rar
+*.7z
+
+# Editor backup files
+*~
+
+# Other files and folders
+node_modules/
+npm-debug.log
+yarn-error.log
+coverage/
