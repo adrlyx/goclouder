@@ -61,7 +61,7 @@ func VerifyDataFunc() {
 				}
 			}
 			var strToCheck string = "global"
-			status := helpers.DoesStringContain(strToCheck, sink.Destination)
+			status := helpers.FindInString(strToCheck, sink.Destination)
 
 			verifyData = append(verifyData, VerifyData{
 				projectID: projectID,
